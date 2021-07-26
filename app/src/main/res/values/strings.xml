@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="boton_prueba_cambio_git">PRUEBA CAMBIO GIT</string>
+    <string name="boton_crearRegistro">CREAR REGISTRO</string>
     <string name="titulo_app">Kaiman Ventas que Valen</string>
+    <string name="solicitud_de_identificación">Ingrese su correo o rut</string>
+    <string name="solicitud_de_contraseña">Ingrese su contraseña</string>
+    <string name="boton_invitadx">Ingresa como invitado/a</string>
+    <string name="boton_inicioSesion">INICIAR SESIÓN</string>
 
 </resources>
