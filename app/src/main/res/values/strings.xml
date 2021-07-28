@@ -6,5 +6,8 @@
     <string name="solicitud_de_contraseña">Ingrese su contraseña</string>
     <string name="boton_invitadx">Ingresa como invitado/a</string>
     <string name="boton_inicioSesion">INICIAR SESIÓN</string>
+    <string name="titulo_crearRegistro">SELECCIONA EL PERFIL DE USUARIO A CREAR</string>
+    <string name="nuevo_cliente">NUEVO CLIENTE</string>
+    <string name="nuevo_vendedor">NUEVO VENDEDOR</string>
 
 </resources>

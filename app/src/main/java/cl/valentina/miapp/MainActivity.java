@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button botonInvitadx = findViewById(R.id.boton_Invitadx);
+        botonInvitadx.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), PantallaInvitadx.class);
+                startActivity(intent);
+            }
+        });
 
 
 
