@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
-import cl.valentina.miapp.R
 import cl.valentina.miapp.databinding.ActivityMain2Binding
 import cl.valentina.miapp.viewModel.QuoteViewModel
 

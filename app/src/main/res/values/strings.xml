@@ -9,5 +9,7 @@
     <string name="titulo_crearRegistro">SELECCIONA EL PERFIL DE USUARIO A CREAR</string>
     <string name="nuevo_cliente">NUEVO CLIENTE</string>
     <string name="nuevo_vendedor">NUEVO VENDEDOR</string>
+    <string name="titulo_formulario">FORMULARIO NUEVO CLIENTE</string>
+    <string name="boton_guardar_datos">GUARDAR</string>
 
 </resources>
