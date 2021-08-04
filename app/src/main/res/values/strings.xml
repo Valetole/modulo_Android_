@@ -11,5 +11,6 @@
     <string name="nuevo_vendedor">NUEVO VENDEDOR</string>
     <string name="titulo_formulario">FORMULARIO NUEVO CLIENTE</string>
     <string name="boton_guardar_datos">GUARDAR</string>
+    <string name="visualizarStock">Visualizar Stock</string>
 
 </resources>

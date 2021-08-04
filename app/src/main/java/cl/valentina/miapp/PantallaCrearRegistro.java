@@ -22,5 +22,13 @@ public class PantallaCrearRegistro extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ImageButton botonCrearVendedor = findViewById(R.id.botonCrearVendedor);
+        botonCrearVendedor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(v.getContext(), FormularioNuevoCliente.class);
+                startActivity(intent);
+            }
+        });
     }
 }

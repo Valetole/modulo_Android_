@@ -11,14 +11,13 @@
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".PantallaInicioSesion"></activity>
         <activity android:name=".MainActivityRecycler">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
-        <activity android:name=".view.InicioSesion" />
+        <activity android:name=".view.InicioSesion">
+
+
+        </activity>>
         <activity android:name=".view.CrearRegistro" />
         <activity android:name=".view.SolicitudDePedido" />
         <activity android:name=".view.MainActivity2" />
@@ -28,7 +27,11 @@
         <activity
             android:name=".SplashScreen"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
     </application>
