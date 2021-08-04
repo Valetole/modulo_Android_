@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Kaiman Ventas que Valen</string>
     <string name="boton_crearRegistro">CREAR REGISTRO</string>
     <string name="titulo_app">Kaiman Ventas que Valen</string>
     <string name="solicitud_de_identificación">Ingrese su correo o rut</string>
@@ -12,5 +12,7 @@
     <string name="titulo_formulario">FORMULARIO NUEVO CLIENTE</string>
     <string name="boton_guardar_datos">GUARDAR</string>
     <string name="visualizarStock">Visualizar Stock</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
 
 </resources>

@@ -9,15 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".PantallaInicioSesion"></activity>
-        <activity android:name=".MainActivityRecycler">
-
-
-        </activity>
-        <activity android:name=".view.InicioSesion">
-
-
-        </activity>>
+        <activity android:name=".view.PantallaInicioSesion"></activity>
+        <activity android:name=".MainActivityRecycler"></activity>
+        <activity android:name=".view.InicioSesion"></activity>
         <activity android:name=".view.CrearRegistro" />
         <activity android:name=".view.SolicitudDePedido" />
         <activity android:name=".view.MainActivity2" />
