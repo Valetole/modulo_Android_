@@ -9,17 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".view.PantallaInicioSesion"></activity>
-        <activity android:name=".MainActivityRecycler"></activity>
-        <activity android:name=".view.InicioSesion"></activity>
+        <activity
+            android:name=".prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2"
+            android:exported="true">
+
+
+        </activity>
+
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+
+
+        </activity>
+        <activity android:name=".pruebafrgamentpedido.MainActivity_RealizarPedido">
+
+
+        </activity>
+        <activity android:name=".view.PantallaInicioSesion" />
+        <activity android:name=".view.MainActivityRecycler" />
+        <activity android:name=".view.InicioSesion" />
         <activity android:name=".view.CrearRegistro" />
         <activity android:name=".view.SolicitudDePedido" />
         <activity android:name=".view.MainActivity2" />
-        <activity android:name=".FormularioNuevoCliente" />
-        <activity android:name=".PantallaInvitadx" />
-        <activity android:name=".PantallaCrearRegistro" />
+        <activity android:name=".view.FormularioNuevoCliente" />
+        <activity android:name=".view.PantallaInvitadx" />
+        <activity android:name=".view.PantallaCrearRegistro" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".view.SplashScreen"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".view.MainActivity" />
     </application>
 
 </manifest>

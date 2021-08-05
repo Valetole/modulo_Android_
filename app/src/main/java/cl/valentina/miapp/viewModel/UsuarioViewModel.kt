@@ -1,11 +1,7 @@
 package cl.valentina.miapp.viewModel
 
 import android.view.View
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import cl.valentina.miapp.UsuarioObserver
-import cl.valentina.miapp.model.UsuarioDatos
-import cl.valentina.miapp.model.UsuarioModel
 
 class UsuarioViewModel : ViewModel() {
 

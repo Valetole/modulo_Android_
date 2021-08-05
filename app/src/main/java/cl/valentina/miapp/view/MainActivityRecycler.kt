@@ -1,10 +1,11 @@
-package cl.valentina.miapp
+package cl.valentina.miapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Adapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import cl.valentina.miapp.viewModel.MainAdapter
+import cl.valentina.miapp.R
 
 
 class MainActivityRecycler : AppCompatActivity() {

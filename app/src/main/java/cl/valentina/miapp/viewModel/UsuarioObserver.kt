@@ -1,4 +1,4 @@
-package cl.valentina.miapp
+package cl.valentina.miapp.viewModel
 
 interface UsuarioObserver {
     fun inicio()

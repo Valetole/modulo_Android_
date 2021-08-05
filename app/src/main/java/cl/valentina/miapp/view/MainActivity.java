@@ -1,4 +1,4 @@
-package cl.valentina.miapp;
+package cl.valentina.miapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import cl.valentina.miapp.view.PantallaInicioSesion;
+import cl.valentina.miapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

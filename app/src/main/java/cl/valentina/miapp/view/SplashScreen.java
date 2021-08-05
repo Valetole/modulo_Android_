@@ -1,6 +1,4 @@
-package cl.valentina.miapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package cl.valentina.miapp.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import cl.valentina.miapp.R;
 
 
 public class SplashScreen extends Activity {

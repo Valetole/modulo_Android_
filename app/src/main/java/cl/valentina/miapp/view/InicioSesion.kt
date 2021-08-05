@@ -3,11 +3,9 @@ package cl.valentina.miapp.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import cl.valentina.miapp.R
-import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import cl.valentina.miapp.UsuarioObserver
+import cl.valentina.miapp.viewModel.UsuarioObserver
 import cl.valentina.miapp.databinding.ActivityInicioSesionBinding
 import cl.valentina.miapp.util.toast
 import cl.valentina.miapp.viewModel.UsuarioViewModel

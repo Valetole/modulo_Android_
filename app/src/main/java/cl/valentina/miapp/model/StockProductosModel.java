@@ -1,4 +1,4 @@
-package cl.valentina.miapp;
+package cl.valentina.miapp.model;
 
 public class StockProductosModel {
     private int imagen;
