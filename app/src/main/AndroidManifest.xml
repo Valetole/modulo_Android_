@@ -10,34 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2"
-            android:exported="true">
-
+            android:name=".ui.MainActivityStockProductos"
+            android:exported="true" >
 
         </activity>
 
+
+        <activity
+            android:name=".prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2"
+            android:exported="true" />
         <activity
             android:name=".drawer"
             android:label="@string/title_activity_drawer"
-            android:theme="@style/Theme.MyApplication.NoActionBar">
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity android:name=".pruebafrgamentpedido.MainActivity_RealizarPedido" />
+        <activity android:name=".view.activity.PantallaInicioSesion" />
+        <activity android:name=".view.activity.MainActivityRecycler" />
+        <activity android:name=".view.activity.InicioSesion" />
+        <activity android:name=".view.activity.CrearRegistro" />
 
-
-        </activity>
-        <activity android:name=".pruebafrgamentpedido.MainActivity_RealizarPedido">
-
-
-        </activity>
-        <activity android:name=".view.PantallaInicioSesion" />
-        <activity android:name=".view.MainActivityRecycler" />
-        <activity android:name=".view.InicioSesion" />
-        <activity android:name=".view.CrearRegistro" />
-        <activity android:name=".view.SolicitudDePedido" />
-        <activity android:name=".view.MainActivity2" />
-        <activity android:name=".view.FormularioNuevoCliente" />
-        <activity android:name=".view.PantallaInvitadx" />
-        <activity android:name=".view.PantallaCrearRegistro" />
+        <activity android:name=".view.activity.MainActivity2" />
+        <activity android:name=".view.activity.FormularioNuevoCliente" />
+        <activity android:name=".view.activity.PantallaInvitadx" />
+        <activity android:name=".view.activity.PantallaCrearRegistro" />
         <activity
-            android:name=".view.SplashScreen"
+            android:name=".view.activity.SplashScreen"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,7 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.activity.MainActivity" />
     </application>
 
 </manifest>

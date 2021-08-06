@@ -1,4 +1,4 @@
-package cl.valentina.miapp.view
+package cl.valentina.miapp.view.activity
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -11,6 +11,7 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 
 import cl.valentina.miapp.R
+import cl.valentina.miapp.prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2
 import com.google.android.material.navigation.NavigationView
 
 class PantallaInicioSesion : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -42,7 +43,7 @@ class PantallaInicioSesion : AppCompatActivity(), NavigationView.OnNavigationIte
         when (item.itemId) {
             R.id.nav_item_uno -> startActivity(Intent (this, MainActivityRecycler::class.java))//Toast.makeText(this, "Mis pedidos", Toast.LENGTH_SHORT).show()
             R.id.nav_item_dos -> Toast.makeText(this, "Mis direcciones", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_tres -> Toast.makeText(this, "Otros", Toast.LENGTH_SHORT).show()
+            R.id.nav_item_tres -> startActivity(Intent(this, MainActivity_RealizarPedidoPrueba2::class.java))//Toast.makeText(this, "Otros", Toast.LENGTH_SHORT).show()
 
         }
 

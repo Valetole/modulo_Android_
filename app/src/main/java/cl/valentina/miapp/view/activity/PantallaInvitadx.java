@@ -1,4 +1,4 @@
-package cl.valentina.miapp.view;
+package cl.valentina.miapp.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import cl.valentina.miapp.R;
 import cl.valentina.miapp.prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2;
+import cl.valentina.miapp.ui.MainActivityStockProductos;
 
 public class PantallaInvitadx extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class PantallaInvitadx extends AppCompatActivity {
         botonStockProductos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(v.getContext(), MainActivityRecycler.class);
+                Intent intent= new Intent(v.getContext(), MainActivityStockProductos.class);
                 startActivity(intent);
             }
         });

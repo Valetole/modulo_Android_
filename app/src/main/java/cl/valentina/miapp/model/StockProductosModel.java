@@ -1,5 +1,7 @@
 package cl.valentina.miapp.model;
 
+import android.graphics.drawable.Drawable;
+
 public class StockProductosModel {
     private int imagen;
     private String nombre;

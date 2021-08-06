@@ -1,4 +1,4 @@
-package cl.valentina.miapp
+package cl.valentina.miapp.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import cl.valentina.miapp.R
 
 
 class one : Fragment() ,View.OnClickListener {

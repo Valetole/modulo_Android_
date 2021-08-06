@@ -1,4 +1,4 @@
-package cl.valentina.miapp
+package cl.valentina.miapp.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import cl.valentina.miapp.R
 
 
 class tres : Fragment(), View.OnClickListener {
@@ -30,7 +31,7 @@ class tres : Fragment(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        nav?.navigate(R.id.action_tres_to_cuatro)
+        nav?.navigate(R.id.action_tres_to_four)
     }
 
 

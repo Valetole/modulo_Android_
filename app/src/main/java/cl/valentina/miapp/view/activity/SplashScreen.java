@@ -1,4 +1,4 @@
-package cl.valentina.miapp.view;
+package cl.valentina.miapp.view.activity;
 
 import android.app.Activity;
 import android.content.Intent;

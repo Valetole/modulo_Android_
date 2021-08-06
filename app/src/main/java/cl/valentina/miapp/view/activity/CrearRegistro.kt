@@ -1,12 +1,12 @@
-package cl.valentina.miapp.view
+package cl.valentina.miapp.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import cl.valentina.miapp.R
 
-class SolicitudDePedido : AppCompatActivity() {
+class CrearRegistro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_solicitud_de_pedio)
-    } // un activity con fragments de todas los pasos.
+        setContentView(R.layout.activity_crear_registro)
+    }
 }

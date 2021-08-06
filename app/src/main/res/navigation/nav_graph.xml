@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/one"
-        android:name="cl.valentina.miapp.one"
+        android:name="cl.valentina.miapp.view.fragment.one"
         android:label="fragment_one"
         tools:layout="@layout/fragment_one" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/two"
-        android:name="cl.valentina.miapp.two"
+        android:name="cl.valentina.miapp.view.fragment.two"
         android:label="fragment_two"
         tools:layout="@layout/fragment_two" >
         <action
@@ -25,16 +25,16 @@
     </fragment>
     <fragment
         android:id="@+id/tres"
-        android:name="cl.valentina.miapp.tres"
+        android:name="cl.valentina.miapp.view.fragment.tres"
         android:label="fragment_tres"
         tools:layout="@layout/fragment_tres" >
         <action
-            android:id="@+id/action_tres_to_cuatro"
-            app:destination="@id/cuatro" />
+            android:id="@+id/action_tres_to_four"
+            app:destination="@id/four" />
     </fragment>
     <fragment
-        android:id="@+id/cuatro"
-        android:name="cl.valentina.miapp.cuatro"
-        android:label="fragment_cuatro"
-        tools:layout="@layout/fragment_cuatro" />
+        android:id="@+id/four"
+        android:name="cl.valentina.miapp.four"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" />
 </navigation>

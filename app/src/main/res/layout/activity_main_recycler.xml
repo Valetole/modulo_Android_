@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivityRecycler">
+    tools:context=".view.activity.MainActivityRecycler">
 
     <TextView
         android:id="@+id/TituloRecyclerStockProductos"
@@ -14,7 +14,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="36dp"
         android:text="Stock Productos"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 

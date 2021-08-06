@@ -1,4 +1,4 @@
-package cl.valentina.miapp.view
+package cl.valentina.miapp.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
