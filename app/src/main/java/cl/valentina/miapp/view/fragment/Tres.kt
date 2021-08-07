@@ -31,7 +31,7 @@ class tres : Fragment(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        nav?.navigate(R.id.action_tres_to_four)
+        nav?.navigate(R.id.action_tres_to_cuatro)
     }
 
 
