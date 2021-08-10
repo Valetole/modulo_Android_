@@ -2,14 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
         <item android:id="@+id/nav_item_uno"
-            android:icon="@drawable/abc_vector_test"
-            android:title="Mis Pedidos"/>
+            android:icon="@drawable/ic_baseline_fastfood_24"
+            android:title="Visualizar Stocks"/>
         <item android:id="@+id/nav_item_dos"
-            android:icon="@drawable/abc_vector_test"
+            android:icon="@drawable/ic_baseline_location_on_24"
             android:title="Mis Direcciones"/>
         <item android:id="@+id/nav_item_tres"
-            android:icon="@drawable/abc_vector_test"
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
             android:title="Realizar Pedido" />
+        <item android:id="@+id/nav_item_misPedidos"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="Mis Pedidos"
+            />
     </group>
 
     <item android:title="Mi cuenta">

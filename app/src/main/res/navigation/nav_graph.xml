@@ -28,13 +28,15 @@
         android:name="cl.valentina.miapp.view.fragment.tres"
         android:label="fragment_tres"
         tools:layout="@layout/fragment_tres" >
+
         <action
-            android:id="@+id/action_tres_to_four"
-            app:destination="@id/four" />
+            android:id="@+id/action_tres_to_cuatro"
+            app:destination="@id/cuatro" />
     </fragment>
     <fragment
-        android:id="@+id/four"
-        android:name="cl.valentina.miapp.four"
-        android:label="fragment_four"
-        tools:layout="@layout/fragment_four" />
+        android:id="@+id/cuatro"
+        android:name="cl.valentina.miapp.view.fragment.cuatro"
+        android:label="fragment_cuatro"
+        tools:layout="@layout/fragment_cuatro" />
+
 </navigation>
