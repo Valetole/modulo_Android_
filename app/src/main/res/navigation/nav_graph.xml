@@ -35,7 +35,7 @@
     </fragment>
     <fragment
         android:id="@+id/cuatro"
-        android:name="cl.valentina.miapp.cuatro"
+        android:name="cl.valentina.miapp.view.fragment.cuatro"
         android:label="fragment_cuatro"
         tools:layout="@layout/fragment_cuatro" />
 

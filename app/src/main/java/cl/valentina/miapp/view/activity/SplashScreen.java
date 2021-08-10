@@ -30,13 +30,10 @@ public class SplashScreen extends Activity {
         titulo_app.setAnimation(animacionSplashScreen2);
         logo_app.setAnimation(animacionSplashScreen1);
 
-        new Handler().postDelayed (new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
+        new Handler().postDelayed (() -> {
+            Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+            startActivity(intent);
+            finish();
         }, 4000);
     }
 }

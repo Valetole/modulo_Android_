@@ -8,16 +8,18 @@
     tools:context=".view.fragment.two">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:id="@+id/fragmentTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="184dp"
         android:background="#E3DADA"
         android:padding="2dp"
         android:text="Selecciona tu Dirección"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -2,11 +2,10 @@ package cl.valentina.miapp;
 
 
 import static androidx.test.espresso.Espresso.onView;
-import static androidx.test.espresso.matcher.ViewMatchers.isClickable;
+
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.action.ViewActions.click;
-import androidx.annotation.ContentView;
-import androidx.test.espresso.ViewAction;
+
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 
