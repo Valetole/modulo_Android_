@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.Observer
+
 
 import cl.valentina.miapp.databinding.FragmentMainRealizarPedidoBinding
 
@@ -15,7 +15,7 @@ import cl.valentina.miapp.databinding.FragmentMainRealizarPedidoBinding
 // escucha viewModel para obtener actualizaciones en la interfaz de usuario
 
 
-class MainFragment_RealizarPedido : Fragment() {
+class MainFragmentRealizarPedido : Fragment() {
 
     //View Binding
     private var _binding: FragmentMainRealizarPedidoBinding? = null
@@ -52,7 +52,8 @@ class MainFragment_RealizarPedido : Fragment() {
     }
       // Observer está esperando que viewModel actualice nuestra interfaz de usuario
     private fun fragmentObserver() {
-        viewModel.uiTextLiveData.observe(viewLifecycleOwner, Observer { textoActual -> binding.fragmentTextView.text = textoActual })
+        viewModel.uiTextLiveData.observe(viewLifecycleOwner,
+            { textoActual -> binding.fragmentTextView.text = textoActual })
     }
 
 

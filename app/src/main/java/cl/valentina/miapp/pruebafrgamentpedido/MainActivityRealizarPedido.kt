@@ -8,7 +8,7 @@ import cl.valentina.miapp.R
 
 // Main activity abre nuestro main fragment que tiene la interfaz de usuario
 
-class MainActivity_RealizarPedido : AppCompatActivity(R.layout.activity_main_realizar_pedido) {
+class MainActivityRealizarPedido : AppCompatActivity(R.layout.activity_main_realizar_pedido) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,7 +16,7 @@ class MainActivity_RealizarPedido : AppCompatActivity(R.layout.activity_main_rea
 
             supportFragmentManager.commit {
                 setReorderingAllowed(true)
-                add<MainFragment_RealizarPedido>(R.id.fragment_container_view)
+                add<MainFragmentRealizarPedido>(R.id.fragment_container_view)
             }
         }
     }

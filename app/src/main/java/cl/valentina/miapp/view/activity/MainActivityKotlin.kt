@@ -3,8 +3,9 @@ package cl.valentina.miapp.view.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import cl.valentina.miapp.databinding.ActivityMainKotlinBinding
+
+//CLASE INICIAL DEL PROYECTO CON KOTLIN Y VIEW BINDING
 
 class MainActivityKotlin : AppCompatActivity() {
 

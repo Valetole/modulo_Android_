@@ -8,8 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 import cl.valentina.miapp.R;
-import cl.valentina.miapp.prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2;
-import cl.valentina.miapp.ui.MainActivityStockProductos;
+import cl.valentina.miapp.prueba2fragmentpedido.MainActivityRealizarPedidoPrueba2;
+
+import cl.valentina.miapp.api.MainActivityApi;
+
+//CAMBIAR A VIEWBINDING Y KOTLIN
 
 public class PantallaInvitadx extends AppCompatActivity {
 
@@ -22,7 +25,7 @@ public class PantallaInvitadx extends AppCompatActivity {
         botonStockProductos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(v.getContext(), MainActivityStockProductos.class);
+                Intent intent= new Intent(v.getContext(), MainActivityApi.class);//CAMBIE A RECYCLER API
                 startActivity(intent);
             }
         });
@@ -38,7 +41,7 @@ public class PantallaInvitadx extends AppCompatActivity {
         botonRealizaPedido.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(v.getContext(), MainActivity_RealizarPedidoPrueba2.class);
+                Intent intent= new Intent(v.getContext(), MainActivityRealizarPedidoPrueba2.class);
                 startActivity(intent);
             }
         });

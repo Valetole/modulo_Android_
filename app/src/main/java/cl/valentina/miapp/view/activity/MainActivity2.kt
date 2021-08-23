@@ -7,6 +7,8 @@ import androidx.lifecycle.Observer
 import cl.valentina.miapp.databinding.ActivityMain2Binding
 import cl.valentina.miapp.viewModel.QuoteViewModel
 
+//CLASE DE PRUEBA DE VIEW MODEL
+
 class MainActivity2 : AppCompatActivity() {
 
     private lateinit var binding: ActivityMain2Binding

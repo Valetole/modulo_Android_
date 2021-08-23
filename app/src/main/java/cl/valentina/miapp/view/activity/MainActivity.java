@@ -10,6 +10,8 @@ import android.widget.EditText;
 
 import cl.valentina.miapp.R;
 
+//INICIO CON JAVA SIN VIEWBINDING validacion de datos de inicio de forma local no quedar vacíos
+
 public class MainActivity extends AppCompatActivity {
 
     EditText email,clave;

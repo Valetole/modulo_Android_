@@ -8,6 +8,7 @@ import cl.valentina.miapp.viewModel.MainAdapter
 import cl.valentina.miapp.R
 
 
+//RECYCLER SIN VIEWMODEL CON KOTLIN
 class MainActivityRecycler : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

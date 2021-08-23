@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cl.valentina.miapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,36 +14,29 @@
         <activity
             android:name=".view.activity.MainActivityKotlin"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
+
         <activity
-            android:name=".ui.MainActivityStockProductos"
-            android:exported="true"></activity>
-        <activity
-            android:name=".prueba2fragmentpedido.MainActivity_RealizarPedidoPrueba2"
+            android:name=".prueba2fragmentpedido.MainActivityRealizarPedidoPrueba2"
             android:exported="true" />
-        <activity
-            android:name=".drawer"
-            android:label="@string/title_activity_drawer"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
-        <activity android:name=".pruebafrgamentpedido.MainActivity_RealizarPedido" />
+        <activity android:name=".pruebafrgamentpedido.MainActivityRealizarPedido" />
         <activity android:name=".view.activity.PantallaInicioSesion" />
         <activity android:name=".view.activity.MainActivityRecycler" />
-        <activity android:name=".view.activity.InicioSesion" />
         <activity android:name=".view.activity.CrearRegistro" />
         <activity android:name=".view.activity.MainActivity2" />
         <activity android:name=".view.activity.FormularioNuevoCliente" />
         <activity android:name=".view.activity.PantallaInvitadx" />
+        <activity android:name=".api.MainActivityApi"/>
         <activity android:name=".view.activity.PantallaCrearRegistro" />
         <activity
             android:name=".view.activity.SplashScreen"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
-
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".view.activity.MainActivity" />
     </application>
