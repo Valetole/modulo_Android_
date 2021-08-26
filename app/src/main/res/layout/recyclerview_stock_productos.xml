@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
+        <import type="android.view.View"/>
         <variable
             name="stock"
             type="cl.valentina.miapp.api.StockProductos" />
@@ -38,12 +38,13 @@
                         android:scaleType="matrix" />
 
                     <TextView
+                        android:textColor="@color/black"
+                        android:text="@{Integer.toString(stock.id)}"
                         android:background="#1C9603"
                         android:textSize="12sp"
                         android:padding="2dp"
                         android:width="38dp"
                         android:textAlignment="center"
-                        android:textColor="#ffffff"
                         android:layout_marginTop="10dp"
                         android:id="@+id/textViewID"
                         android:layout_width="wrap_content"
@@ -94,10 +95,12 @@
 
                     <TextView
                         android:id="@+id/textView"
+                        android:text="@{Integer.toString(stock.cantidad)}"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textViewType"
-                        android:text="Stock Disponible: 10" />
+
+                         />
 
                 </RelativeLayout>
 

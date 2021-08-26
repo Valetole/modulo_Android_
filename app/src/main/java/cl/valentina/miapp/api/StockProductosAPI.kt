@@ -19,7 +19,6 @@ interface StockProductosAPI {
                 .baseUrl("http://valetole.rayunmapu.cl/")
                 .build()
                 .create(StockProductosAPI::class.java)
-
         }
     }
 }
