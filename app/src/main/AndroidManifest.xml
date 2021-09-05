@@ -6,6 +6,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".room.MyRoomRetroApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -29,6 +30,7 @@
         <activity android:name=".view.activity.FormularioNuevoCliente" />
         <activity android:name=".view.activity.PantallaInvitadx" />
         <activity android:name=".api.MainActivityApi"/>
+        <activity android:name=".room.MainActivityRoom"/>
         <activity android:name=".view.activity.PantallaCrearRegistro" />
         <activity
             android:name=".view.activity.SplashScreen"

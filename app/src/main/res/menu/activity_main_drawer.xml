@@ -10,6 +10,9 @@
         <item android:id="@+id/nav_item_tres"
             android:icon="@drawable/ic_baseline_add_shopping_cart_24"
             android:title="Realizar Pedido" />
+        <item android:id="@+id/nav_item_misFavoritos"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Mis Favoritos"/>
         <item android:id="@+id/nav_item_misPedidos"
             android:icon="@drawable/ic_baseline_shopping_cart_24"
             android:title="Mis Pedidos"

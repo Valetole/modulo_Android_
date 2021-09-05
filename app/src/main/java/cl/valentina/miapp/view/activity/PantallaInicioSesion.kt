@@ -12,6 +12,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 
 import cl.valentina.miapp.R
 import cl.valentina.miapp.prueba2fragmentpedido.MainActivityRealizarPedidoPrueba2
+import cl.valentina.miapp.room.MainActivityRoom
 import com.google.android.material.navigation.NavigationView
 
 //PANTALLA DE USUARIO REGISTRADO NAVIGATION DRAWER
@@ -46,7 +47,7 @@ class PantallaInicioSesion : AppCompatActivity(), NavigationView.OnNavigationIte
             R.id.nav_item_uno -> startActivity(Intent (this, MainActivityRecycler::class.java))//Toast.makeText(this, "Mis pedidos", Toast.LENGTH_SHORT).show()
             R.id.nav_item_dos -> Toast.makeText(this, "Mis direcciones", Toast.LENGTH_SHORT).show()
             R.id.nav_item_tres -> startActivity(Intent(this, MainActivityRealizarPedidoPrueba2::class.java))//Toast.makeText(this, "Otros", Toast.LENGTH_SHORT).show()
-
+            R.id.nav_item_misFavoritos -> startActivity(Intent(this,MainActivityRoom::class.java))
         }
 
         drawer.closeDrawer(GravityCompat.START)
