@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 import cl.valentina.miapp.R;
 
-//AÑADIR VIEWBINDING
+//AÑADIR VIEWBINDING y pasar a kotlin
 public class PantallaCrearRegistro extends AppCompatActivity {
 
     @Override

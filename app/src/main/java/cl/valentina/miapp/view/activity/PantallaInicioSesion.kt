@@ -39,6 +39,8 @@ class PantallaInicioSesion : AppCompatActivity(), NavigationView.OnNavigationIte
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
+
+
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

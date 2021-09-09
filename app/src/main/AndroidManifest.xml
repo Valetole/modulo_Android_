@@ -11,7 +11,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">>
         <activity
             android:name=".view.activity.MainActivityKotlin"
             android:exported="true" >
@@ -25,7 +26,6 @@
         <activity android:name=".pruebafrgamentpedido.MainActivityRealizarPedido" />
         <activity android:name=".view.activity.PantallaInicioSesion" />
         <activity android:name=".view.activity.MainActivityRecycler" />
-        <activity android:name=".view.activity.CrearRegistro" />
         <activity android:name=".view.activity.MainActivity2" />
         <activity android:name=".view.activity.FormularioNuevoCliente" />
         <activity android:name=".view.activity.PantallaInvitadx" />

@@ -23,7 +23,7 @@ class MainActivityRoom : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_room)
 
-        //throw RuntimeException("Crashlytics test")
+        throw RuntimeException("Crashlytics test")
 
         initViewModel()
         initMainViewModel()

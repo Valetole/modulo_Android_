@@ -21,5 +21,12 @@ class MainActivityViewModel @Inject constructor(
     }
 }
 
-//viewModelScope.launch(Dispatchers.IO) {}
-//insertar acá corrutina viewmodelScope.launch(Dispatchers.IO) {}
+
+//fun makeApiCall(context: Context) {
+//        try {
+//            repository.callApi()
+//        } catch (e: Exception) {
+//            Toast.makeText(context, "Sin internet", Toast.LENGTH_LONG).show()
+//        }
+//
+//    }
