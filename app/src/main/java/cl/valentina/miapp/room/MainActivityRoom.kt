@@ -23,7 +23,7 @@ class MainActivityRoom : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_room)
 
-        throw RuntimeException("Crashlytics test")
+        //throw RuntimeException("Crashlytics test")
 
         initViewModel()
         initMainViewModel()
@@ -36,7 +36,7 @@ class MainActivityRoom : AppCompatActivity() {
 
             val decoration = DividerItemDecoration(applicationContext, DividerItemDecoration.VERTICAL)
             addItemDecoration(decoration)
-            recyclerViewAdapter = RecyclerViewAdapter()
+            recyclerViewAdapter = RecyclerViewAdapter(this@MainActivityRoom)
             adapter = recyclerViewAdapter
         }
 

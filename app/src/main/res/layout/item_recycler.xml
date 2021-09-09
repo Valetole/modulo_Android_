@@ -61,7 +61,7 @@
                     tools:text="Descripcion Producto" />
 
                 <Button
-                    android:id="@+id/button_book"
+                    android:id="@+id/button_añadir"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"

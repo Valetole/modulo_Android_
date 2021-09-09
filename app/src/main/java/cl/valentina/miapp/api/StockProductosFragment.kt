@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 
 
 import androidx.lifecycle.ViewModelProvider
@@ -17,7 +18,7 @@ import kotlinx.android.synthetic.main.stock_productos_fragment.*
 //Representa la interfaz de usuario, sin ninguna lógica de aplicación. Observa el ViewModel.
 
 
-class StockProductosFragment : Fragment() {
+class StockProductosFragment : Fragment(), RecyclerViewClickListener {
 
     private lateinit var  factory: StockProductosViewModelFactory
     private lateinit var viewModel: StockProductosViewModel
@@ -42,10 +43,18 @@ class StockProductosFragment : Fragment() {
             recycler_view_stock_productos.also {
                 it.layoutManager = LinearLayoutManager(requireContext())
                 it.setHasFixedSize(true)
-                it.adapter = StockProductosAdapter(stocks)
+                it.adapter = StockProductosAdapter(stocks, this)
             }
 
         })
+    }
+
+    override fun onRecyclerItemClick(view: View, stockProductos: StockProductos) {
+        when(view.id) {
+            R.id.button_book -> {
+                Toast.makeText(requireContext(), "producto añadido al carrito", Toast.LENGTH_LONG).show()
+            }
+        }
     }
 
 }

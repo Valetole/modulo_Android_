@@ -1,15 +1,20 @@
 package cl.valentina.miapp.room.adapter
 
+import android.app.Activity
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import cl.valentina.miapp.R
 import cl.valentina.miapp.room.StockProductosEntity
+import cl.valentina.miapp.view.activity.PantallaInicioSesion
+import cl.valentina.miapp.view.activity.PantallaMiPedido
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_recycler.view.*
 
-class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
+class RecyclerViewAdapter(private val activity: Activity) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
 
     private var listData: List<StockProductosEntity>? = null
     fun setListData(listData: List<StockProductosEntity>?) {
@@ -29,6 +34,10 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHol
 
     override fun onBindViewHolder(holder: RecyclerViewAdapter.MyViewHolder, position: Int) {
         holder.bind(listData?.get(position)!!)
+        holder.boton.setOnClickListener {
+            val siguiente = Intent(activity, PantallaMiPedido::class.java)
+            activity.startActivity(siguiente)
+        }
 
     }
 
@@ -44,6 +53,7 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHol
     val descripcion = view.tvDescripcion
     val precio = view.tvPrecio
     val cantidadProducto = view.tvCantidadStock
+        val boton = view.button_añadir
 
         fun bind(data:StockProductosEntity) {
             nombreProducto.text = data.nombre
