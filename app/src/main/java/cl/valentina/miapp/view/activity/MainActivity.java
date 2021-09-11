@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 if(validarDatos()) {
                     startActivity(intent);
                 }
-
             }
         });
         Button botonCrearRegistro = findViewById(R.id.boton_CrearRegistro);

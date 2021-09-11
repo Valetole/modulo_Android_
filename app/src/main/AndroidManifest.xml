@@ -22,7 +22,7 @@
         <activity
             android:name=".prueba2fragmentpedido.MainActivityRealizarPedidoPrueba2"
             android:exported="true" />
-        <activity android:name=".pruebafrgamentpedido.MainActivityRealizarPedido" />
+        <activity android:name=".pruebaviewmodelajenoalproyecto.MainActivityRealizarPedido" />
         <activity android:name=".view.activity.PantallaInicioSesion" />
         <activity android:name=".view.activity.MainActivityRecycler" />
         <activity android:name=".view.activity.MainActivity2" />

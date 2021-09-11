@@ -1,4 +1,4 @@
-package cl.valentina.miapp.pruebafrgamentpedido
+package cl.valentina.miapp.pruebaviewmodelajenoalproyecto
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

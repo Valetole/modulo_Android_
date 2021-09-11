@@ -1,4 +1,4 @@
-package cl.valentina.miapp.pruebafrgamentpedido
+package cl.valentina.miapp.pruebaviewmodelajenoalproyecto
 
 data class DataModelRealizarPedido (
         val textoForUI:String)

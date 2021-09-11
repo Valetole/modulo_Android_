@@ -1,9 +1,9 @@
-package cl.valentina.miapp.viewModel
+package cl.valentina.miapp.viewModelAjenoalproyecto
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import cl.valentina.miapp.model.QuoteModel
-import cl.valentina.miapp.model.QuoteProvider
+import cl.valentina.miapp.modelAjenoAlproyectoPracticas.QuoteModel
+import cl.valentina.miapp.modelAjenoAlproyectoPracticas.QuoteProvider
 
 class QuoteViewModel: ViewModel() {
     

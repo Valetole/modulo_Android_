@@ -35,7 +35,7 @@ class RetroRepository @Inject constructor(
                     response.body()?.forEach {
                         insertStock(it)
                     }
-                }//Agregar try catch
+                }
             }
 
             override fun onFailure(call: Call<List<StockProductosEntity>>, t: Throwable) {

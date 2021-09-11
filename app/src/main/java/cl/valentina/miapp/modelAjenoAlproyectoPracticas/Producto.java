@@ -1,4 +1,4 @@
-package cl.valentina.miapp.model;
+package cl.valentina.miapp.modelAjenoAlproyectoPracticas;
 
 public class Producto {
 

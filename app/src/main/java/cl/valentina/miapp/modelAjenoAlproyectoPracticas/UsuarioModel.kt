@@ -1,6 +1,4 @@
-package cl.valentina.miapp.model
-
-import java.util.*
+package cl.valentina.miapp.modelAjenoAlproyectoPracticas
 
 data class UsuarioModel (
 

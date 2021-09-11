@@ -1,4 +1,4 @@
-package cl.valentina.miapp.model;
+package cl.valentina.miapp.modelAjenoAlproyectoPracticas;
 
 import java.util.Date;
 

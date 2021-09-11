@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import cl.valentina.miapp.viewModel.MainAdapter
+import cl.valentina.miapp.viewModelAjenoalproyecto.MainAdapter
 import cl.valentina.miapp.R
 
 

@@ -1,4 +1,4 @@
-package cl.valentina.miapp.viewModel
+package cl.valentina.miapp.viewModelAjenoalproyecto
 
 import android.view.LayoutInflater
 import android.view.View

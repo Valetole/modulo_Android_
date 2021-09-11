@@ -1,4 +1,4 @@
-package cl.valentina.miapp.pruebafrgamentpedido
+package cl.valentina.miapp.pruebaviewmodelajenoalproyecto
 
 
 import androidx.lifecycle.MutableLiveData

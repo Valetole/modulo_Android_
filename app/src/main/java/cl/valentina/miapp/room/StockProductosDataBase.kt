@@ -19,7 +19,7 @@ abstract class StockProductosDataBase : RoomDatabase() {
         fun getDatabase(context: Context) :StockProductosDataBase {
             if(instance == null) {
                 instance=Room.databaseBuilder(context.applicationContext, StockProductosDataBase::class.java,"STOCK BD")
-                    .allowMainThreadQueries()//Revisar esto
+                    .allowMainThreadQueries()//Desactiva la comprobación de la consulta del hilo principal para Room.
                     .build()
 
             }

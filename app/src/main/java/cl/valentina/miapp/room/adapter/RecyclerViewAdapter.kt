@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat.startActivity
+import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewbinding.ViewBinding
 import cl.valentina.miapp.R
 import cl.valentina.miapp.room.StockProductosEntity
-import cl.valentina.miapp.view.activity.PantallaInicioSesion
 import cl.valentina.miapp.view.activity.PantallaMiPedido
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_recycler.view.*
@@ -38,6 +39,10 @@ class RecyclerViewAdapter(private val activity: Activity) : RecyclerView.Adapter
             val siguiente = Intent(activity, PantallaMiPedido::class.java)
             activity.startActivity(siguiente)
         }
+        /*holder.botonCarrito.setOnClickListener{
+            val intent = Intent(activity, PantallaMiPedido::class.java)
+            activity.startActivity(intent)
+        }*/
 
     }
 
@@ -54,6 +59,7 @@ class RecyclerViewAdapter(private val activity: Activity) : RecyclerView.Adapter
     val precio = view.tvPrecio
     val cantidadProducto = view.tvCantidadStock
         val boton = view.button_añadir
+        //val botonCarrito = view.botonCarrito
 
         fun bind(data:StockProductosEntity) {
             nombreProducto.text = data.nombre
