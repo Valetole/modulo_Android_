@@ -1,7 +1,10 @@
 package cl.valentina.miapp.room
 
+import android.content.Context
+import android.net.ConnectivityManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -50,6 +53,17 @@ class MainActivityRoom : AppCompatActivity() {
 
         })
 
+       /* if(isConnected(this)){
+           viewModel.makeApiCall()
+        } else {
+            Toast.makeText(this,"SIn internet", Toast.LENGTH_LONG).show()
+        }*/
+
         viewModel.makeApiCall()
     }
+    /*fun isConnected(context: Context): Boolean {
+        val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val activeNetwork = cm.activeNetworkInfo
+        return activeNetwork != null && activeNetwork.isConnectedOrConnecting
+    }*/
 }

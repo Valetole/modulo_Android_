@@ -1,6 +1,8 @@
 package cl.valentina.miapp.api
 
 
+import android.content.Context
+import android.net.ConnectivityManager
 import android.os.Bundle
 
 import androidx.fragment.app.Fragment
@@ -38,7 +40,15 @@ class StockProductosFragment : Fragment(), RecyclerViewClickListener {
         factory = StockProductosViewModelFactory(repository)
         //viewModel = ViewModelProviders.of(this,factory).get(StockProductosViewModel::class.java)
         viewModel = ViewModelProvider(this,factory).get(StockProductosViewModel::class.java)
-        viewModel.getStockProductos()
+
+        if(isNetworkConnected(requireContext())) {
+            viewModel.getStockProductos()
+        } else {
+            Toast.makeText(requireContext(),"SIn internet", Toast.LENGTH_LONG).show()
+        }
+        //viewModel.getStockProductos()
+
+
         viewModel.stocks.observe(viewLifecycleOwner, { stocks ->
             recycler_view_stock_productos.also {
                 it.layoutManager = LinearLayoutManager(requireContext())
@@ -47,6 +57,11 @@ class StockProductosFragment : Fragment(), RecyclerViewClickListener {
             }
 
         })
+    }
+    fun isNetworkConnected(context: Context): Boolean {
+        val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val activeNetwork = cm.activeNetworkInfo
+        return activeNetwork != null && activeNetwork.isConnectedOrConnecting
     }
 
     override fun onRecyclerItemClick(view: View, stockProductos: StockProductos) {

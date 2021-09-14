@@ -17,5 +17,5 @@ interface StockProductosDAO {
     fun insertStockProductos(stockProductos: StockProductosEntity)
 
     @Query("DELETE FROM STOCKS")
-     fun deleteStockProductos()
+    fun deleteStockProductos()
 }
